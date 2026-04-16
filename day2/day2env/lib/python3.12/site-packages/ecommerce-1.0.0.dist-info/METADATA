@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: ecommerce
+Version: 1.0.0
+Summary: Developing ecommerce application
+Author-email: Sneha <snehasatarke44@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: faker>=13.3.3
+Provides-Extra: dev
+Requires-Dist: pytest>=7.2.0; extra == "dev"
+Requires-Dist: pytest-cov>=3.0.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: isort>=5.10.1; extra == "dev"
+Requires-Dist: sphinx>=5.0.0; extra == "dev"
